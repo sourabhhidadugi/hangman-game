@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "hangman:build:production"
+              "buildTarget": "hangman:build:production"
             },
             "development": {
-              "browserTarget": "hangman:build:development"
+              "buildTarget": "hangman:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hangman:build"
+            "buildTarget": "hangman:build"
           }
         },
         "test": {
