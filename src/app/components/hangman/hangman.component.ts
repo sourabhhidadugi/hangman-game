@@ -52,7 +52,7 @@ export class HangmanComponent implements OnInit {
   pickNewQuestion() {
     const randomIndex = Math.floor(Math.random() * this.questions.length);
     this.question = this.questions[randomIndex];
-    console.log(this.question);
+    console.log('Language name:', this.question);
   }
 
   onGameFinished() {
